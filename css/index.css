@@ -1,0 +1,165 @@
+body{
+	background-image: url('../Images/bg-1.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+	justify-content: flex-end;
+}
+.container{
+	height:470px;
+	width: 540px;
+	margin-right: 100px;
+	background-color: #FFFFFF;
+	position: relative;
+	background-color: rgba(255,255,255,0.5);
+	border-radius: 8px;
+	padding: 20px;
+}
+.skill-count-form{
+	position: relative;
+}
+.btn-container{
+	height: 40px;
+	position: absolute;
+	bottom: 10px;
+	width: 100%;
+	justify-content: flex-end;
+	gap : 0 10px;
+}
+.step{
+	width: 120px;
+	border: 1px solid silver;
+	height: 95%;
+	border-radius: 8px;
+	background: #807AE8;
+	opacity: 2;
+	color: white;
+}
+.preview,.submit{
+	display: none;
+}
+.title{
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+.first-step{
+	height: 80%;
+}
+.profile-image{
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.profile-image img{
+	height: 100%;
+	/*width: 100%;*/
+	object-fit: cover;
+}
+.choose-image{
+	padding: 5px 20px;
+	border: 1px solid;
+	border-radius: 8px;
+	background: #336aea;
+	color: white;
+}
+.active{
+	display: block;
+}
+.inactive{
+	display: none;
+}
+.step-2{
+	height:75%;
+	/*border: 1px solid;*/
+}
+.input-container{
+	height: 70px;
+	width: 100%;
+	margin-bottom: 4px;
+}
+.label{
+	margin-bottom: 7px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 15px;
+}
+.input{
+	height: 32px;
+	border: 1px solid silver;
+	border-radius: 8px;
+	padding: 0 10px;
+}
+.input input,.input-2 textarea{
+	border: none;
+	background: none;
+	outline: none;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 16px;
+}
+.input-container-2{
+	height: 110px;
+}
+.input-2{
+	height: 70px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.input-2 textarea{
+	resize: none;
+}
+.input-2 textarea::-webkit-scrollbar 
+{
+	display: none;
+	}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+.qualification-table, .skill-table,.experience-table{
+	border-collapse:collapse;
+	border: 1px solid silver;
+	text-align: center;
+}
+td{
+	border: 1px solid silver;
+	padding: 5px;
+}
+.add-qualification,.remove ,.add-skill,.add-experience{
+	padding: 2px;
+	border-radius: 8px;
+	font-size: 18px;
+	background: #336aea;
+	color: white;
+}
+.remove{
+	background: red;
+}
+td input{
+	width: 100%;
+	border: none;
+	background: none;
+	outline: none;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 16px;
+}
+.action{
+	width: 30px;
+}
+.alert-container{
+	background-color: #000000aa;
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	display: none;
+}
+.alert-inner-container{
+	width: 90%;
+	height: 40px;
+	background: #FFFFFF;
+}
